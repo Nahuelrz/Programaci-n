@@ -44,12 +44,10 @@ public class metodo {
 		System.out.println("Has salido del programa.");
 }
 	private static double áreaT(double altura, double base) {
-		double resultado2 = (altura * base) / 2;
-		return resultado2;
+		return (altura * base) / 2;
 	}
 
 	private static double perimetroT(double num, double num2, double num3) {
-		double resultado = num + num2 + num3;
-		return resultado;
+		return num + num2 + num3;
 	}
 }
